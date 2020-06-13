@@ -30,17 +30,3 @@ class Block {
 }
 
 module.exports = Block;
-
-// class BlockChain {
-//   constructor() {
-//     const genisis = new Block("gen-data", "gen-hash", "gen-last-hash");
-//     this.chain = [genisis];
-//   }
-
-//   addData = (data) => {
-//     const lastHash = this.chain[this.chain.length - 1].lastHash;
-//     const hash = fastHashing(data + lastHash);
-//     const Block = new Block(data, hash, lastHash);
-//     this.chain.push(Block);
-//   };
-// }
